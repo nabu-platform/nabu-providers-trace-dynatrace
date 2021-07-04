@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <maven>
+    <artifacts>be.nabu.libs.tracer:tracer-dynatrace</artifacts>
     <encapsulated>false</encapsulated>
+    <internalDomains>be.nabu.libs.tracer.dynatrace</internalDomains>
+    <provided>be.nabu.libs.tracer:tracer-api</provided>
+    <provided>org.slf4j:slf4j-api</provided>
     <updateSnapshots>false</updateSnapshots>
 </maven>
